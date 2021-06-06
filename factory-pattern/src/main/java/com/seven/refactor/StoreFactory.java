@@ -9,8 +9,40 @@
  */
 package com.seven.refactor;
 
+import com.seven.refactor.impl.CardCommodityService;
+import com.seven.refactor.impl.CouponCommodityService;
+import com.seven.refactor.impl.GoodsCommodityService;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author seven
  */
-public interface StoreFactory {
+public class StoreFactory {
+    private final Integer TYPE_COUPON = 1;
+    private final Integer TYPE_GOODS = 2;
+    private final Integer TYPE_CARD = 3;
+
+    //模擬注入
+    private ICommodity couponCommodityService = new CouponCommodityService();
+    private ICommodity goodsCommodityService = new GoodsCommodityService();
+    private ICommodity cardCommodityService = new CardCommodityService();
+
+    private Map<Integer,ICommodity> commodityMap = new HashMap<Integer, ICommodity>();
+
+    public StoreFactory() {
+        commodityMap.put(TYPE_COUPON, couponCommodityService);
+        commodityMap.put(TYPE_GOODS, goodsCommodityService);
+        commodityMap.put(TYPE_CARD, cardCommodityService);
+    }
+
+    public ICommodity getCommodityService(Integer commodityType) {
+        ICommodity iCommodity = commodityMap.get(commodityType);
+        if (iCommodity == null){
+            throw new RuntimeException("不存在的商品服务类型");
+        }
+        return iCommodity;
+    }
+
 }
