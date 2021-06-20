@@ -11,3 +11,6 @@
 
 2. [抽象工厂模式](https://bugstack.cn/itstack-demo-design/2020/05/24/%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html)
 ![](./img/abstract_factory.png)
+
+3. [建造者模式](https://bugstack.cn/itstack-demo-design/2020/07/12/%E9%87%8D%E5%AD%A6-Java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.html)
+![](./img/builder.png)
