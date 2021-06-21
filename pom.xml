@@ -14,6 +14,7 @@
     <module>builder-pattern</module>
     <module>Prototype-pattern</module>
     <module>single-pattern</module>
+    <module>adapter-pattern</module>
   </modules>
 
   <dependencies>
