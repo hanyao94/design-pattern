@@ -15,6 +15,7 @@
     <module>Prototype-pattern</module>
     <module>single-pattern</module>
     <module>adapter-pattern</module>
+    <module>bridge-pattern</module>
   </modules>
 
   <dependencies>
