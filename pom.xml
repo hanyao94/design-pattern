@@ -17,6 +17,7 @@
     <module>adapter-pattern</module>
     <module>bridge-pattern</module>
     <module>composite-pattern</module>
+    <module>decorato-rpattern</module>
   </modules>
 
   <dependencies>
