@@ -18,6 +18,7 @@
     <module>bridge-pattern</module>
     <module>composite-pattern</module>
     <module>decorato-rpattern</module>
+    <module>facade-pattern</module>
   </modules>
 
   <dependencies>

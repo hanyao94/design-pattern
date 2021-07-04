@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.seven.base.plugin.config.StarterAutoConfigure

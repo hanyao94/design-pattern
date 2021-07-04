@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: facade-helloword
+
+seven:
+  door:
+    enabled: true
+    userStr: 1001,aaaa,ccc #⽩名单⽤户ID，多个逗号隔開
