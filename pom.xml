@@ -19,6 +19,7 @@
     <module>composite-pattern</module>
     <module>decorato-rpattern</module>
     <module>facade-pattern</module>
+    <module>flyweight-pattern</module>
   </modules>
 
   <dependencies>
