@@ -17,9 +17,10 @@
     <module>adapter-pattern</module>
     <module>bridge-pattern</module>
     <module>composite-pattern</module>
-    <module>decorato-rpattern</module>
+    <module>decorato-pattern</module>
     <module>facade-pattern</module>
     <module>flyweight-pattern</module>
+    <module>proxy-pattern</module>
   </modules>
 
   <dependencies>
