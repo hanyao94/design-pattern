@@ -24,6 +24,7 @@
     <module>chain-of-responsibility-pattern</module>
     <module>command-pattern</module>
     <module>iterator-pattern</module>
+    <module>mediator-pattern</module>
   </modules>
 
   <dependencies>
@@ -59,6 +60,11 @@
           <groupId>org.slf4j</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.20</version>
     </dependency>
   </dependencies>
 
