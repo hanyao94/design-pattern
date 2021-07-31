@@ -10,12 +10,19 @@
 package
         refactor.mediator;
 
+
 /**
  * @author XX
  * @since 1.0
  */
 public class DefaultSqlSessionFactory implements SqlSessionFactory {
+    private final Configuration configuration;
+
+    public DefaultSqlSessionFactory(Configuration configuration) {
+        this.configuration = configuration;
+    }
+
     public SqlSession openSession() {
-        return null;
+        return new DefaultSqlSession(configuration.connection,configuration.mapperElement);
     }
 }

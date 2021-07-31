@@ -37,7 +37,7 @@ public class JDBCUtil {
         ResultSet resultSet = statement.executeQuery("SELECT * FROM mas_user");
         while (resultSet.next()){
             logger.info("测试结果 姓名：{} 年龄：{}",
-                    resultSet.getString("name"),resultSet.getInt("age"));
+                    resultSet.getString("name"),resultSet.getInt("fversion"));
         }
 
     }
