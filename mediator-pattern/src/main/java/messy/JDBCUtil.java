@@ -28,7 +28,7 @@ public class JDBCUtil {
 
     public static final String URL = "jdbc:mysql://rm-bp1s58ir8o88dhv4yto.mysql.rds.aliyuncs.com:3306/mas";
     public static  final  String  USER = "mas";
-    public static  final  String  PASSWORD = "bB2^lQ0*hF1h7H";
+    public static  final  String  PASSWORD = "xxx";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");

@@ -10,7 +10,7 @@
         <property name="driver" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://rm-bp1s58ir8o88dhv4yto.mysql.rds.aliyuncs.com:3306/mas?useUnicode=true"/>
         <property name="username" value="mas"/>
-        <property name="password" value="bB2^lQ0*hF1h7H"/>
+        <property name="password" value="xxxx"/>
       </dataSource>
     </environment>
   </environments>
