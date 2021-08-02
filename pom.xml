@@ -25,6 +25,7 @@
     <module>command-pattern</module>
     <module>iterator-pattern</module>
     <module>mediator-pattern</module>
+    <module>memento-pattern</module>
   </modules>
 
   <dependencies>
