@@ -28,6 +28,7 @@
     <module>memento-pattern</module>
     <module>observer-pattern</module>
     <module>state-pattern</module>
+    <module>strategy-pattern</module>
   </modules>
 
   <dependencies>
