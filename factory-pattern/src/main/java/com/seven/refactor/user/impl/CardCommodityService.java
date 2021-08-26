@@ -8,7 +8,7 @@
  * 2021年06月06日 - XX - 创建。
  */
 package
-        com.seven.refactor.impl;
+        com.seven.refactor.user.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.seven.base.card.IQiYiCardService;

@@ -5,7 +5,7 @@
  * 修改历史：
  * 2021/8/24 - seven - 创建。
  */
-package com.seven.refactor.impl;
+package com.seven.refactor.user.impl;
 
 import com.seven.base.ActivityService;
 import com.seven.base.Status;

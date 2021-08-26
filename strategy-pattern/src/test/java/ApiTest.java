@@ -7,10 +7,10 @@
  */
 
 import com.seven.refactor.Context;
-import com.seven.refactor.impl.MJCouponDiscount;
-import com.seven.refactor.impl.NYGCouponDiscount;
-import com.seven.refactor.impl.ZJCouponDiscount;
-import com.seven.refactor.impl.ZKCouponDiscount;
+import com.seven.refactor.user.impl.MJCouponDiscount;
+import com.seven.refactor.user.impl.NYGCouponDiscount;
+import com.seven.refactor.user.impl.ZJCouponDiscount;
+import com.seven.refactor.user.impl.ZKCouponDiscount;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

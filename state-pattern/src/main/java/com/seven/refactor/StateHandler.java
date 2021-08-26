@@ -9,13 +9,13 @@ package com.seven.refactor;
 
 import com.seven.base.Status;
 import com.seven.messy.Result;
-import com.seven.refactor.impl.CheckState;
-import com.seven.refactor.impl.CloseState;
-import com.seven.refactor.impl.DoingState;
-import com.seven.refactor.impl.EditingState;
-import com.seven.refactor.impl.OpenState;
-import com.seven.refactor.impl.PassState;
-import com.seven.refactor.impl.RefuseState;
+import com.seven.refactor.user.impl.CheckState;
+import com.seven.refactor.user.impl.CloseState;
+import com.seven.refactor.user.impl.DoingState;
+import com.seven.refactor.user.impl.EditingState;
+import com.seven.refactor.user.impl.OpenState;
+import com.seven.refactor.user.impl.PassState;
+import com.seven.refactor.user.impl.RefuseState;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

@@ -9,9 +9,9 @@
  */
 package com.seven.refactor;
 
-import com.seven.refactor.impl.CardCommodityService;
-import com.seven.refactor.impl.CouponCommodityService;
-import com.seven.refactor.impl.GoodsCommodityService;
+import com.seven.refactor.user.impl.CardCommodityService;
+import com.seven.refactor.user.impl.CouponCommodityService;
+import com.seven.refactor.user.impl.GoodsCommodityService;
 
 import java.util.HashMap;
 import java.util.Map;
